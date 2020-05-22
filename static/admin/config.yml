@@ -35,10 +35,10 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "news-page"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
+      - {label: "Featured News", name: "featurednews", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Short Body", name: "shortbody", widget: "text"}
-      - {label: "Long Body", name: "longbody", widget: "markdown"}
+      - {label: "Long Body", name: "body", widget: "markdown"}
       - {label: "Source", name: "source", widget: "string"}
 
   - name: "pages"

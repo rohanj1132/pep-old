@@ -26,9 +26,8 @@ export const NewsPageTemplate = ({
     </h2>
     <section className="section section--gradient">
       <div className="container">
-    
-              <p>{shortbody}</p>
-          <HTMLContent content={longbody} />
+        <p>{shortbody}</p>
+        <HTMLContent content={longbody} />
       </div>
     </section>
   </div>
@@ -38,7 +37,7 @@ NewsPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   shortbody: PropTypes.string,
-  longbody: PropTypes.string,
+  longbody: PropTypes.node,
   source: PropTypes.string
 }
 

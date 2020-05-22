@@ -11,7 +11,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <h1>PEP</h1>
+          <h1 style={{color: "white"}}>PEP</h1>
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
@@ -30,11 +30,7 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
-                    <li>
+                      {/* TODO: Remove later */}
                       <a
                         className="navbar-item"
                         href="/admin/"
@@ -49,18 +45,6 @@ const Footer = class extends React.Component {
               </div>
               <div className="column is-4">
                 <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
                 </section>
               </div>
               <div className="column is-4 social">
